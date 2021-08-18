@@ -1,0 +1,24 @@
+{
+  "name": "py-pinata-pinner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "_pinImgToPinata.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-contracts": "sol-merger \"./contracts/ColoredPet.sol\" ./build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pinata/sdk": "^1.1.23",
+    "@truffle/hdwallet-provider": "^1.4.1",
+    "pinata": "0.0.1",
+    "pinata-sdk": "^0.1.7",
+    "truffle": "^5.4.1",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "zeppelin-solidity": "^1.12.0"
+  },
+  "devDependencies": {
+    "sol-merger": "^3.1.0"
+  }
+}
